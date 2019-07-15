@@ -2,10 +2,10 @@ package com.charles.alc4phase1
 
 import android.content.Intent
 import android.net.Uri
+import android.net.http.SslError
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import android.view.KeyEvent
 import android.webkit.*
 import kotlinx.android.synthetic.main.activity_about.*
 
@@ -33,9 +33,8 @@ class AboutActivity : AppCompatActivity() {
                 return true
             }
 
-            override fun onPageFinished(view: WebView, url: String) {
-
-                super.onPageFinished(view, url)
+            override fun onReceivedSslError(view: WebView?, handler: SslErrorHandler?, error: SslError?) {
+                handler?.proceed()
             }
         }
 
