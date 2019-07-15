@@ -13,16 +13,13 @@
             android:elevation="4dp"
             android:theme="@style/AppToolBar"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/about_alc_webview"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
     <WebView
             android:id="@+id/about_alc_webview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            app:layout_constraintBottom_toBottomOf="@id/toolbar"
+            android:layout_marginTop="?attr/actionBarSize"
             android:verticalScrollbarPosition="defaultPosition"
             android:background="@color/colorPrimary"/>
 
