@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="title_activity_main">ALC 4 Phase 1</string>
+    <string name="action_bar">new</string>
+    <string name="welcome_text">Welcome to ALC 4.0</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="todo">TODO</string>
+    <string name="hello_up">hello up</string>
+    <string name="my_name">Charles Mbuthia Mungai</string>
+    <string name="my_track">Android</string>
+    <string name="my_country">Kenya</string>
+    <string name="my_email">charles.mbuthia19@gmail.com</string>
+    <string name="my_number">254721611631</string>
+    <string name="my_username">Charles mungai</string>
+    <string name="country">Country:  </string>
+    <string name="track">Track:  </string>
+    <string name="email">Email:  </string>
+    <string name="phone_number">Phone Number:  </string>
+    <string name="slack_username">Slack Username:  </string>
+</resources>
